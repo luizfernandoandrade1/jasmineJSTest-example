@@ -7,7 +7,6 @@ describe("Testando funções em demanda", function () {
    });
 
     it("Adicionar curso em demanda", function () {
-        console.log(demandaCtrl);
         demandaCtrl.addCourse(scope.demand);
         expect(scope.demand.courses[0]).toEqual('Excel');
     });
